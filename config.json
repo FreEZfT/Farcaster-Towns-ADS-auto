@@ -1,0 +1,28 @@
+{
+  "ads_id_file": "ADSid.txt",
+  "max_workers": 12,
+  "num_profiles_to_select": 245,
+  "profile_start_delay_range": [ 10, 20 ],
+  "run_mode": "both",
+  "pause_range": [ 2, 6 ],
+  "project_completion_pause_range": [ 10, 25 ],
+  "text_file": "text.txt",
+  "comment_file": "comment.txt",
+  "picture_folder": "picture",
+  "openrouter_api_key": "sk-or-v1-a7860776debd022ae97ac5APIKEY",
+  "openrouter_model": "anthropic/claude-3-haiku",
+  "openrouter_system_prompt": "MAXIMUM 10-15 words, in English Language! Just say Hi and something interesting about this:",
+  "//comment_warpcast_actions": "Доступные действия для Warpcast: delete_post, cast, follow_followers, run_multiple_interactions, follow_new_followers, likes",
+  "warpcast_enabled_actions": [
+    "cast",
+    "follow_followers",
+    "follow_new_followers"
+  ],
+  "//comment_towns_actions": "Доступные действия для Towns: choice_town, text, scroll_town, bober",
+  "towns_enabled_actions": [
+    "bober",
+    "choice_town",
+    "text",
+    "scroll_town"
+  ]
+}
